@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO</title>
+    <link rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- custome css file link -->
+<link rel="stylesheet" href="style.css">
+
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+   media="screen">
+
+
+</head>
+<body>
+    <!-- header section start -->
+      <header>
+         <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">Hotel<span> ELITE</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+            <div class="icons">
+                <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+         <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search"></label>
+         </form>   
+      </header>
+    <!-- header section ends -->
+
+    
+
+
+
+<!-- login form container -->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn"> 
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>forget password?<a href="#">click here</a></p>
+        <p>Don't have an account?<a href="#">Register now</a></p>
+    </form>
+</div>
+ 
+<!-- home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome to A global icon of luxury</h3>
+        <p>dicover new places with us,luxury awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+ 
+    <div class="controls">
+        <span class="vid-btn active" data-src="istockphoto-1063769518-640_adpp_is (1).mp4"></span>
+        <span class="vid-btn" data-src="istockphoto-1151563038-640_adpp_is.mp4"></span>
+        <span class="vid-btn" data-src="istockphoto-963050796-640_adpp_is.mp4"></span>
+        <span class="vid-btn" data-src="istockphoto-928931836-640_adpp_is.mp4"></span>
+        <span class="vid-btn" data-src="istockphoto-1295779086-640_adpp_is.mp4"></span>
+
+        
+    </div>
+
+    <div class="video-container">
+        <video src="istockphoto-1063769518-640_adpp_is (1).mp4" id="video-slider" loop autoplay muted></video>
+        <!-- <video src="istockphoto-1151563038-640_adpp_is.mp4" id="video-slider" loop autoplay muted></video> -->
+        
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+   <h1 class="heading">
+    <span>B</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+     <span class="space"></span>
+     <span>n</span>
+     <span>o</span>
+     <span>w</span>
+   </h1>
+   
+   <div class="row">
+    <div class="img">
+        <img src="hotelbook.webp" alt="">
+    </div>
+
+    <form action="https://formspree.io/f/xvolepwj" method="POST" >
+        <div class="inputBox">
+            <h3>Where to</h3>
+            <input type="text" placeholder="Place name" name="name">
+        </div>
+        <div class="inputBox">
+            <h3>Guests & Rooms/h3>
+            <input type="text" placeholder="2 adults.0 child.1 room" name="text">
+        </div>
+        <div class="inputBox">
+            <h3>Check-In</h3>
+            <input type="date" name="date">
+        </div>
+        <div class="inputBox">
+            <h3>Check-Out</h3>
+            <input type="date" name="date">
+        </div>
+        <input type="submit" class="btn" value="book now" name="book">
+    </form>
+   </div>
+</section>
+<!-- book section ends -->
+
+<!-- Packages section starts  -->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>P</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+         <span>a</span>
+         <span>g</span>
+         <span>e</span>
+         <span>s</span>
+    </h1>
+  
+    <div class="box-container">
+        <div class="box">
+            <img src="mumbai3.jpg" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Mumbai</h3>
+                <p>Five-Star Sophisticated Bangkok Escape With Daily Breakfast, Nightly Cocktails & Afternoon Tea
+                    <br>  Travel Until 30 Nov 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price">$900.00 <span>$1200.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+      
+        <div class="box">
+            <img src="syd.jpg" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Sydney</h3>
+                <p>Five-Star Sophisticated Bangkok Escape with Daily Breakfast, Nightly Cocktails & Afternoon Tea
+                    Travel until 30 Nov 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1200.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="hawaii.webp" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Hawaii</h3>
+                <p>Five-Star Sophisticated Bangkok Escape With Daily Breakfast, Nightly Cocktails & Afternoon Tea
+                    <br> Travel Until 30 Nov 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1200.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="paris.cms" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Paris</h3>
+                <p>Seven-Star Sophisticated Paris Escape With Daily Breakfast, Lunch, Dinner,Tour to Eiffel Tower, Nightly Cocktails & Afternoon Tea 
+                    <br>  Travel Until 30 Nov 2023 </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1500.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="tokyo.jpeg" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Tokyo</h3>
+                <p>Five-Star Pullman Phuket Cliffside Haven with Massages & Daily All-Inclusive Breakfast, Lunch & Dinner
+                    <br> Travel until 31 Oct 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1200.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="egypt.jpg" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Egypt</h3>
+                <p>Five-Star Pullman Phuket Cliffside Haven with Massages & Daily All-Inclusive Breakfast, Lunch & Dinner
+                    <br>Travel until 31 Oct 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1200.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="new york.jpg" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> New york</h3>
+                <p>Five-Star Sophisticated Bangkok Escape With Daily Breakfast, Nightly Cocktails & Afternoon Tea
+                    <br> Travel Until 30 Nov 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1700.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="singapore.webp" alt="" width="40%">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Singapore</h3>
+                <p>Five-Star Sophisticated Bangkok Escape With Daily Breakfast, Nightly Cocktails & Afternoon Tea <br> Travel Until 30 Nov 2023</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price"> $900.00 <span>$1200.00</span></div>
+                <a href="#book" class="btn">Book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Packages section ends  -->
+
+<!-- Service section starts -->
+<section class="service" id="service">
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+         <span>i</span>
+         <span>c</span>
+         <span>e</span>
+         <span>s</span>
+    </h1>
+    
+    <div class="box-container">
+       
+        <div class="box">
+            <img src="welcome.jpg" alt="" width="70%">
+            
+                <h3>A Warm Welcome</h3>
+                <p>Enjoy a special meet & greet service at the airport and enhance the experience through our new affordable private transportation. Operated by our trusted service provider, 
+                    it offers a seamless transfer experience to your chosen destination.</p>
+        </div>
+        <hr>
+        <div class="box">
+            <img src="vip.jpg" alt="" width="70%">
+            
+                <h3>VIP Services</h3>
+                <p>VIP service is about more than a mere luxury. 
+                     It's about creating once in a lifetime opportunities. 
+                    At Hotel Elite, we have an impressive list of VIP experiences to make your stay a memorable one.
+From butler services to dream car hire, we are here to spoil you.  
+All you need to do is ask!</p>
+        </div>
+        <hr>
+        <div class="box">
+            <img src="kids-1.jpg" alt="" width="70%">
+                <h3>Kids Club</h3>
+                <p>The Kids Club provides attentive care and a host of entertainment options to our young guest.
+                    The Kids Club is staffed at all times by professional carers.
+                 The service is offered exclusive to in-house guests on a complimentary basis and caters for children aged between 4 to 10 years of age.</p>
+        </div>
+        <hr>
+        <div class="box">
+            <img src="lounge.jpg" alt=""width="70%">
+           
+                <h3>Grand Club Lounge</h3>
+                <p>The Grand Club is one of the most exclusive spaces in Hotel Elite and is available to guests who have reserved Grand Club rooms, Grand Club suites, Diplomatic suites and Royal Suites.Open daily from 7:00 a.m. – 11:00 p.m. *</p>
+        </div>
+        <hr>
+        <div class="box">
+            <img src="cruise-1.webp" alt="" width="70%">
+          
+                <h3>Marquise Boat</h3>
+                <p>Marquise’ Elite’s private boat offers an alternative venue for unique dining and entertainment, while luxuriously cruising the ocean.</p>
+        </div>
+        <hr>
+
+        <div class="box">
+            <img src="sightseeing.jpg" alt="" width="70%">
+            
+                <h3>Sightseeing</h3>
+                <p>We know your time is precious – so we strive to help you make the most of it at Hotel Elite. 
+                    Hotel Elite's guests are invited to explore the city through sightseeing tours!!
+        </div>
+    </div>
+</section>
+<!-- Service section ends -->
+
+<!-- Gallery section stars -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+         <span>e</span>
+         <span>r</span>
+         <span>y</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="g1.jpg" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="g1.jpg" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="g22.webp" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="g22.webp" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img-3.webp" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="img-3.webp" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="g4.webp" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="g4.webp" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img-6.jpg" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="img-6.jpg" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="bar-3.jpg" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="bar-3.jpg" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="rest-2.jpg" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="rest-2.jpg" class="btn">View image</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="room-5.jpg" alt="" width="30%">
+        <div class="content">
+            <h3>Hotel Gallery</h3>
+            <a href="room-5.jpg" class="btn">View image</a>
+        </div>
+    </div>
+
+    
+</div>
+</section>
+
+<!-- Gallery section ends -->
+
+<!-- review section starts -->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+         <span>e</span>
+         <span>w</span>
+         <span>s</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="p1.jpg" alt="" width="30%" height="30%">
+                    <h3>Edward Bey</h3>
+                    <p>Great location, really pleasant and clean rooms, but the thing that makes this such a good place to stay are the staff. All of the people are incredibly helpful and generous with their time and advice.All of the people are incredibly helpful and generous with their time and advice</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="p222.jpg" alt="" width="30%" height="30%">
+                    <h3>Lalisa</h3>
+                    <p >We loved the Hotel Elite - the location can't be beat! We had a spacious room for 4 with beautiful views and wonderful service and hospitality from the staff. Our room had all of the conveniences we could hope for and my daughter loved the breakfast service every day! </p> 
+                    <!-- We will definitely plan a return stay on our next visit!                 -->
+                       <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="p3.jpg" alt="" width="30%" height="30%">
+                    <h3>Conrad Fisher</h3>
+                    <p>We spent 3 glorious days there just before Diwali. Very polite staff , smart hotel , good decor, almost on the Mall Road but at one end away from the buzz.Nothing negative to describe. Pleasant walk from the centre. Good food, excellent spa !Will be coming again.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="p44.jpg" alt="" width="30%" height="30%">
+                    <h3>amilla mendas</h3>
+                    <p>Elite is a nice hotel with excellent food and service. Elite is a very good property with newly built nicely done rooms. We had some medical emergency with our Mother at around 9 at night and the hotel was very prompt in arranging a doctor which was of real great help.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="p555.jpg" alt="" width="30%" height="30%">
+                    <h3>Chery Blossom</h3>
+                    <p>Elite is a best hotel with excellent food and services. They offer complementary fruit, chocolates and coffee in the room. Breakfast is good and you can choose: Indian, continental, etc.Also the restaurant is very good and reasonably priced.I will definitely stay there.</p> 
+                      
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="p6.jpg" alt="" width="30%" height="30%">
+                    <h3>Fred Andrews</h3>
+                    <p>Best hotel for budget stay, staff for services was good nature, fearless atmosphere of hotel. Breakfast food quality and test both good. Overall good experience and one of the best memorable trip. Thanks to all members of Hotel Elite.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+           <img src="contactuss.jpg" alt="" >                                     
+        </div>
+        <form action="https://formspree.io/f/xvolepwj" method="POST" >
+            <div class="inputBox">
+                <input type="text" placeholder="Enter your name" name="name">
+                <input type="email" placeholder="Email" name="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Mobile No." name="number">
+                <input type="text" placeholder="Subject" name="subject">
+            </div>
+            <textarea placeholder="Message" name="message" cols="30" rows="10"></textarea>
+            <input type="Submit" class="btn" value="send message" name="submit">
+        </form>
+    </div>
+</section>
+<!-- contact section ends -->
+
+<!-- brand selection starts -->
+<section class="brand-container">
+    <h1 class="heading">
+        <span>B</span>
+        <span>r</span>
+        <span>a</span>
+        <span>n</span>
+        <span>d</span>
+        <span>s</span>
+    </h1>
+    
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="b1.avif" alt="" width="30%" height="30%"></div>
+            <div class="swiper-slide"><img src="b22.avif" alt="" width="30%" height="30%"></div>
+            <div class="swiper-slide"><img src="b3.avif" alt="" width="30%" height="30%"></div>
+            <div class="swiper-slide"><img src="b4.avif" alt="" width="30%" height="30%"></div>
+            <div class="swiper-slide"><img src="b5.avif" alt="" width="30%" height="30%"></div>
+            <div class="swiper-slide"><img src="b6.avif" alt="" width="30%" height="30%"></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- brand selection ends -->
+
+
+<!-- about section starts -->
+
+<div class="px-4 py-5 my-5 text-center" style="background-color: rgb(39, 39, 101); color: white;">
+    <img class="d-block mx-auto mb-4" src="About_us.jpg" alt="" width="40%" height="40%">
+    <h1 class="display-5 fw-bold">ABOUT HOTEL ELITE</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4" style="font-size: 20px; Padding:40px">Hotel Elite is a good choice for travellers looking for a budget accomodation.it is rated 4 out of 5, which is considered as best. Hotel Elite is very much popular among the tourists. A smooth check-in/check-out process, flexible policies and friendly management garner great customer satisfaction for this property. The Hotel has standard Check-In time as 12:00 PM and Check-Out time as 12:00 PM.</p>
+    </div>
+  </div>
+<!-- <div id="about" class="about">
+    <div class="container-fluid">
+       <div class="row d_flex">
+          <div class="col-md-6">
+            <div class="about_text" style="margin-top: -116px;margin-right: 104px;">
+                        <div class="titlepage">
+                           <h1>E</h1>
+                           <p id="p1"></p>
+                        </div>
+                     </div>
+          </div>
+          <div class="col-md-6">
+             <div class="about_img">
+                <!-- <figure><img src="About_us.jpg" alt="#" /></figure> -->
+             </div>
+          </div>
+       </div>
+    </div> 
+ </div> -->
+ <!-- end about -->
+
+<!-- footer section -->
+<section class="footer">
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">USA</a>
+            <a href="#">INDIA</a>
+            <a href="#">JAPAN</a>
+            <a href="#">CHINA</a>
+            <a href="#">FRANCE</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+         </div>
+
+         <div class="box">
+            <h3>Follow us</h3>
+            
+            <a href="#">Facebook</a></i>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+
+    <h1 class="credit">created by <span>Tech It Out Team</span>|All rights reserved!!</h1>
+
+</section>
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!-- custome js file link -->
+       <script src="main.js"></script> 
+</body>
+</html>
